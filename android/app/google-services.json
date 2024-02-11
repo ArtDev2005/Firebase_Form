@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386819934763",
+    "project_id": "senddata-e87ec",
+    "storage_bucket": "senddata-e87ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386819934763:android:7ef28cba2abfbf711fb86e",
+        "android_client_info": {
+          "package_name": "com.example.firebase_form"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHqlULZq4ooV6THvxThLF9R8FYiOFpTj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
