@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -99,6 +100,18 @@ class MyCustomFormState extends State<MyCustomForm> {
                             'Email': ControllerEmail.text,
                             'Phone number': ControllerPhone.text,
                           }
+                      );
+                      ControllerName.clear();
+                      ControllerEmail.clear();
+                      ControllerPhone.clear();
+                      Fluttertoast.showToast(
+                        msg: "Message sent!",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        timeInSecForIosWeb: 1,
+                        backgroundColor: Colors.black,
+                        textColor: Colors.white,
+                        fontSize: 14.0,
                       );
                     }
                   },
